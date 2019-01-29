@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start"
+    android:background="#05ddb8"
+    android:orientation="vertical"
+    android:id="@+id/l1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lemon"
+            android:text="WITH"
+            android:textColor="#ffffff"
+            android:textSize="100dp"
+            tools:ignore="MissingConstraints"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="병원이 어디요?"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/lemon"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="모바일프로그래밍 프로젝트"
+            android:textColor="#9b9999"
+            android:fontFamily="@font/lemon"
+            android:textSize="13dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
